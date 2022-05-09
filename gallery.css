@@ -1,0 +1,29 @@
+.gallery .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  grid-gap: 5px;
+  justify-content: center;
+}
+.gallery .container .item {
+  border-radius: 5px;
+  padding: 10px;
+  background: #f2f2f2;
+}
+.gallery .container .item img {
+  max-width: 100%;
+}
+.gallery .container .level-1 {
+  grid-row-end: span 2;
+}
+.gallery .container .level-2 {
+  grid-row-end: span 1;
+}
+.gallery .container .level-3 {
+  grid-row-end: span 2;
+}
+.gallery .container .level-4 {
+  grid-row-end: span 2;
+}
+.gallery .container .level-5 {
+  grid-row-end: span 1;
+}
